@@ -12,11 +12,7 @@ class Solution {
         for(int i=0;i<candidates.length;i++){
             candidates[i]=Integer.parseInt(s[i]);
         }
-        List<List<Integer>> ans = new ArrayList<>();
-        ans=combinationSum(candidates,t);
-        for(int i=0;i<ans.size();i++){
-            System.out.print(ans.get(i)+" ");
-        }
+        System.out.println(combinationSum(candidates,t));
     }
     public static List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
