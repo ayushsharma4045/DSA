@@ -6,7 +6,7 @@ import java.io.*;
 class Solution {
     public static void main(String [] args)throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        String s[] = in.readLine().split(" ");
+        String s[] = in.readLine().trim().split(" ");
         int nums[] = new int[s.length];
         for(int i=0;i<nums.length;i++){
             nums[i]=Integer.parseInt(s[i]);
