@@ -1,9 +1,9 @@
 /*
- * Problem Link: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
+ * Problem Link: 17._Letter_Combinations_of_a_Phone_Number https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
  */
 import java.util.*;
 import java.io.*;
-class Solution {
+class Letter_Combinations_of_a_Phone_Number {
      static List<String> res = new ArrayList<>();
     public static void main(String[] args)throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

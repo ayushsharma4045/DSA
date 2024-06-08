@@ -3,7 +3,7 @@
  */
 import java.io.*;
 import java.util.*;
-class Solution {
+class Swapping_pairs_make_sum_equal {
     long findSwapValues(long a[], int n, long b[], int m) {
         // Your code goes here
         Arrays.sort(a);
@@ -52,7 +52,7 @@ class Array {
             for (int i = 0; i < m; i++) {
                 b[i] = Long.parseLong(a2[i]);
             }
-            Solution ob = new Solution();
+            Swapping_pairs_make_sum_equal ob = new Swapping_pairs_make_sum_equal();
             long ans = ob.findSwapValues(a, n, b, m);
             System.out.println(ans);
         }

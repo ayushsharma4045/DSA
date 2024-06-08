@@ -3,7 +3,7 @@
  */
 import java.util.*;
 import java.io.*;
-class Solution {
+class N_Queens {
     public static void main(String[] args)throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(in.readLine());

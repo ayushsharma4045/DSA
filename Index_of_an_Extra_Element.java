@@ -1,7 +1,10 @@
 //{ Driver Code Starts
+/*
+ * Problem Link: https://www.geeksforgeeks.org/problems/index-of-an-extra-element/1
+ */
 import java.util.*;
 
-class ExtraElement {
+class Index_of_an_Extra_Element {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();

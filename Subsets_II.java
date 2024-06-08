@@ -3,7 +3,7 @@
  */
 import java.io.*;
 import java.util.*;
-class Solution {
+class Subsets_II {
     static List<List<Integer>> res = new ArrayList<>();
     public static void main(String[] args)throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

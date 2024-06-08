@@ -3,7 +3,7 @@
  */
 import java.util.*;
 import java.io.*;
-class Solution {
+class Permutations {
     public static void main(String [] args)throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String s[] = in.readLine().trim().split(" ");

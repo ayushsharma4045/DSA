@@ -3,7 +3,7 @@
  */
 import java.util.Scanner;
  
-public class Main {
+public class Watermelon {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
@@ -14,5 +14,6 @@ public class Main {
         else {
             System.out.println(x % 2 == 0 ? "YES" : "NO");
         }
+        scanner.close();
     }
 }

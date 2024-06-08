@@ -3,7 +3,7 @@
  */
 import java.io.*;
 //import java.util.*;
-class Solution {
+class Word_Search {
     public static void main(String[] args)throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         int m=Integer.parseInt(in.readLine());
